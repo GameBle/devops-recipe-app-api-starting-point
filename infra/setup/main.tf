@@ -10,7 +10,7 @@ terraform {
     bucket         = "devops-recipe-djangoapp-tf-state"
     key            = "tf-state-setup"
     region         = "eu-north-1"
-    encrypt        =  true 
+    encrypt        = true
     dynamodb_table = "devops-recipe-djangoapp-tf-lock"
   }
 }
