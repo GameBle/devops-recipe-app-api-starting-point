@@ -20,5 +20,5 @@ variable "db_username" {
 
 variable "db_password" {
   description = "Password for the Terraform database"
-  default = "Saquib@123"
+  default     = "Saquib@123"
 }
